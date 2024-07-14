@@ -8,9 +8,23 @@
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
-                  <entry key="Duration" value="313" />
-                  <entry key="Tests" value="583" />
-                  <entry key="Xiaomi 220733SI" value="343" />
+                  <entry key="Duration" value="334" />
+                  <entry key="Tests" value="604" />
+                  <entry key="Xiaomi 220733SI" value="364" />
+                  <entry key="samsung SM-S928B" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="1025696474">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
+                  <entry key="Xiaomi 220733SI" value="120" />
                 </map>
               </option>
             </AndroidTestResultsTableState>

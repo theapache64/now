@@ -49,8 +49,12 @@
     <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/buildConfig/benchmark">
       <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/buildConfig/benchmark" isTestSource="false" generated="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kapt/benchmark" />
-    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kaptKotlin/benchmark" />
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kapt/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kapt/benchmark" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kaptKotlin/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kaptKotlin/benchmark" isTestSource="false" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../benchmark/src">
       <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/src/main/java" isTestSource="false" />
     </content>
