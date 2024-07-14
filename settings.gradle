@@ -9,4 +9,3 @@ dependencyResolutionManagement {
 rootProject.name = "now"
 include ':app'
 include ':benchmark'
-include ':di'

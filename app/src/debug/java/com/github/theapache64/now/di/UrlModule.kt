@@ -10,7 +10,6 @@ import javax.inject.Named
 @Module
 @InstallIn(SingletonComponent::class)
 class UrlModule {
-
     @Provides
     @Named("world_time_api_url")
     fun provideWorldTimeApiUrl(): String {

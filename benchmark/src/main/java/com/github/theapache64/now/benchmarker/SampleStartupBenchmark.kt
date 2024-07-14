@@ -6,16 +6,13 @@ import androidx.benchmark.macro.junit4.MacrobenchmarkRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
-import com.github.theapache64.now.di.UrlModule
-import dagger.hilt.android.testing.HiltAndroidRule
+import com.github.theapache64.now.di.module.UrlModule
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.UninstallModules
-import org.junit.Rule
 import org.junit.Test
-import org.junit.rules.RuleChain
 import org.junit.runner.RunWith
 
-@UninstallModules(UrlModule::class)
+@UninstallModules(com.github.theapache64.now.di.module.UrlModule::class)
 @HiltAndroidTest
 @RunWith(AndroidJUnit4::class)
 class SampleStartupBenchmark {
