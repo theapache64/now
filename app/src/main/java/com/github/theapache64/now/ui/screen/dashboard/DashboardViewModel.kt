@@ -27,7 +27,6 @@ class DashboardViewModel @Inject constructor(
 
     private fun refreshTime() {
         viewModelScope.launch {
-            dateTime = "Loading... \uD83D\uDCE1"
             dateTime = dateTimeRepo.getCurrentDateTime()
         }
     }
