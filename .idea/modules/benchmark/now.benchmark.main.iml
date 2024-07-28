@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":benchmark:main" external.linked.project.path="$MODULE_DIR$/../../../benchmark" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="benchmark" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../benchmark/src/main/res;file://$MODULE_DIR$/../../../benchmark/src/benchmark/res;file://$MODULE_DIR$/../../../benchmark/build/generated/res/resValues/benchmark" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="2" />
+      </configuration>
+    </facet>
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="allowNoSourceFiles" arg="true" />
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../benchmark/build/tmp/kotlin-classes/benchmark" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="benchmark_benchmark" />
+            <stringArg name="apiVersion" arg="1.9" />
+            <stringArg name="languageVersion" arg="1.9" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../benchmark/build/intermediates/javac/benchmark/compileBenchmarkJavaWithJavac/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/ap_generated_sources/benchmark/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/ap_generated_sources/benchmark/out" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/res/resValues/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/res/resValues/benchmark" type="java-resource" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/buildConfig/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/buildConfig/benchmark" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kapt/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kapt/benchmark" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kaptKotlin/benchmark">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/build/generated/source/kaptKotlin/benchmark" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../benchmark/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../benchmark/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: androidx.test.ext:junit:1.2.1@aar" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../benchmark/build/tmp/kapt3/classes/benchmark" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: androidx.test.services:storage:1.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test:monitor:1.7.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.tracing:tracing:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test:core:1.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-core:3.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test:runner:1.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test.uiautomator:uiautomator:2.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.benchmark:benchmark-macro-junit4:1.3.0-beta02@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.benchmark:benchmark-macro:1.3.0-beta02@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.benchmark:benchmark-common:1.3.0-beta02@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.benchmark:benchmark-junit4:1.3.0-beta02@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.24" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:23.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-jvm:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.concurrent:concurrent-futures-ktx:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.concurrent:concurrent-futures:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.18.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.wire:wire-runtime-jvm:4.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio-jvm:3.7.0" level="project" />
+  </component>
+</module>
